@@ -4,78 +4,71 @@
 ![Dart](https://img.shields.io/badge/Dart-3.3-blue?logo=dart&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> Desafio desenvolvido como parte da minha jornada de estudos em Flutter, com foco no uso de **Riverpod** para gerenciamento de estado, integração com API, tema dinâmico e busca em tempo real.
+> Challenge developed as part of my Flutter study journey, focusing on using **Riverpod** for state management, API integration, dynamic theme and real-time search.
 
 ---
 
-## 📱 **Demonstração do App**
+## 📱 **App Demo**
 
-| Tela Inicial | Tema Claro com Busca | Tema Escuro com Detalhes |
+| Home Screen Light Mode | Dark Theme Home Screen | User Details |
 |:-------------:|:--------------------:|:-------------------------:|
 | ![Tela1](assets/images/flutter-challenge1.png) | ![Tela2](assets/images/flutter-challenge2.png) | ![Tela3](assets/images/flutter-challenge3.png) |
 
 ---
 
-## 🔥 **Funcionalidades**
+## 🔥 **Features**
 
-- ✅ Listagem de usuários consumindo API
-- ✅ Campo de busca com filtro em tempo real
-- ✅ Alternância entre tema claro e escuro ☀️🌙
-- ✅ Recarregar dados manualmente com botão 🔄
-- ✅ Loading customizado
-- ✅ Navegação para detalhes do usuário
-- ✅ Gerenciamento de estado com Riverpod
-- ✅ Código limpo e organizado por features
+- ✅ List of users consuming API
+- ✅ Search field with real-time filter
+- ✅ Switch between light and dark theme ☀️🌙
+- ✅ Manually reload data with button 🔄
+- ✅ Custom Loading
+- ✅ Navigation to user details
+- ✅ State management with Riverpod
+- ✅ Clean code organized by features
 
 ---
 
-## 🏗️ **Estrutura do Projeto**
+## 🏗️ **Project Structure**
 
 lib/
-├── models/ → Modelos de dados (User)
-├── pages/ → Telas (Listagem e Detalhes)
-├── providers/ → Providers do Riverpod
-├── services/ → Camada de serviços (API)
-└── main.dart → Arquivo principal
+├── models/ → Data models (User)
+├── pages/ → Screens (Listing and Details)
+├── providers/ → Riverpod providers
+├── services/ → Service layer (API)
+└── main.dart → Main file
 
 ---
 
-## 🎯 **Tecnologias e Pacotes Utilizados**
+## 🎯 **Technologies and Packages Used**
 
 - ✅ Flutter
 - ✅ Dart
-- ✅ Riverpod → Gerenciamento de estado
-- ✅ Dio → Requisições HTTP
-- ✅ Gap → Widget de espaçamento
+- ✅ Riverpod → State Management
+- ✅ Dio → HTTP Requests
+- ✅ Gap → Spacing Widget
 - ✅ Material Design
 
 ---
 
-## 🚀 **Como Executar o Projeto**
+## 🚀 **How ​​to Run the Project**
 
-1️⃣ Clone este repositório:
+1️⃣ Clone this repository:
 
 ```bash
 git clone https://github.com/MachadoJorgeH/flutter_portfolio_riverpod.git
-2️⃣ Acesse a pasta do projeto:
+2️⃣ Access the project folder:
 
 cd flutter_portfolio_riverpod
 
-3️⃣ Instale as dependências:
+3️⃣ Install the dependencies:
 
 flutter pub get
 
-4️⃣ Execute o app:
+4️⃣ Run the app:
 
 flutter run
 
-💼 Sobre Mim
-Olá! 👋 Me chamo Jorge Henrique Machado, sou estudante de Análise e Desenvolvimento de Sistemas, estagiário de tecnologia na @MoovzApp, e estou focado em me tornar um desenvolvedor Flutter profissional.
-
-💼 LinkedIn
-
-💻 GitHub
-
-🏆 Status do Projeto
-✔️ Projeto finalizado como Desafio Nível Júnior com Riverpod.
-Este projeto faz parte do meu portfólio e está aberto para sugestões e melhorias.
+🏆 Project Status
+✔️ Project completed as Junior Level Challenge with Riverpod.
+This project is part of my portfolio and is open for suggestions and improvements.
